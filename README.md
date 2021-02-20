@@ -1,4 +1,4 @@
-Hello! This is my CV profile!
+ My CV profile!
 
 In the first screenshot you can see cv page which is th result by typing http://127.0.0.1:8000/cv because by getting from method '/cv' it will return cv page .
 
