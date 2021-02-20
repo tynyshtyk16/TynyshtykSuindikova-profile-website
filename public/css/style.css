@@ -1,0 +1,337 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	text-decoration: none;
+}
+.row0{
+	max-width: 1300px;
+	padding: 0 80px;
+	color:  #e0af53;
+;
+	margin: auto;
+}
+
+.navbar {
+position:fixed;
+width: 100%;
+padding:  15px 0;
+font-family: 'Cuprum', sans-serif;
+
+/*background:red;
+*/}
+.navbar .row0{
+/*	text-align: right ;
+*/	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.navbar .logo a{
+	font-size: 30px;
+	font-weight: 600;
+color: #e0af53;
+}
+.navbar .heading li {
+
+list-style: none;
+display: inline-block;
+}
+.navbar .row0 li  a {
+color: #e0af53;
+font-size: 18px;
+font-weight: 500;
+margin-left: 20px;
+}
+.home-content .t1{
+	color: black;
+}
+
+/*home style*/
+.home{
+	display: flex;
+
+	background:url('/srcs/283930.jpeg')no-repeat center ;
+	height: 90vh;
+/*color: #e0af53;
+*/	min-height: 500px; 
+font-family: 'Francois One', sans-serif;
+
+}
+
+.home .row0{
+margin: auto  ;
+font-size: 40px;
+
+}
+/*.t1 .t2{
+	 display: block;
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+.img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+  display: block;
+/*  margin-top: -50px;
+*/  margin-left: auto;
+  margin-right: auto;
+ margin-bottom: 40px;
+}
+
+.row0 .home-content .t1 {
+	text-align: center;
+}
+.row0 .home-content .t2 {
+	margin-top: 15px;
+	text-align: center;
+font-family: 'Josefin Sans', sans-serif;font-size: 30px;
+}
+
+.aboutCont h2 {
+font-family: 'Oswald', sans-serif;
+	    font-size: 40px;
+ 
+			padding-bottom: 30px;
+		    padding-top: 120px;
+			color: #e0af53;
+	    margin-right: 50%;
+	    margin-left: 50%; 
+
+}
+.skillsCont h2 {
+font-family: 'Oswald', sans-serif;
+	    font-size: 40px;
+ 
+			padding-bottom: 30px;
+		    padding-top: 120px;
+			color: #e0af53;
+	    margin-right: 50%;
+	    margin-left: 50%; 
+
+}
+.contactCont h2{
+font-family: 'Oswald', sans-serif;
+	    font-size: 40px;
+ 
+			padding-bottom: 30px;
+		    padding-top: 120px;
+			color: #e0af53;
+	    margin-right: 50%;
+	    margin-left: 50%; 
+
+}
+.about{
+	color: #e0af53;
+
+	   background-image:url('/srcs/284010.jpeg');
+		height: 100vh;
+
+}
+.tableAbout{
+	color: white;
+}
+td{
+	padding-left: 20px;
+	padding-right: 20px;
+	/*padding-top: 30px;*/
+
+}
+ .leftside .tableAbout{
+ border-style: groove;
+	margin-left: auto;
+  margin-right: auto;
+font-size: 25px;
+  border-spacing: 15px;
+}
+
+
+.skills .skillsCont .left-side .textForSkills{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skillsCont .left-side p{
+    text-align: justify;
+}
+.skills .skillsCont .left-side  a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.skills .skillsCont .left-side  a:hover{
+    color: crimson;
+    background: none;
+}
+.skills .skillsCont .right-side  .bars{
+    margin-bottom: 15px;
+}
+.skills .skillsCont .right-side  .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills ..skillsCont .right-side  span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skillsCont .right-side  .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skillsCont .right-side  .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:#e0af53;
+;
+}
+.skillsCont .right-side  .html::before{
+    width: 90%;
+}
+.skillsCont .right-side  .css::before{
+    width: 60%;
+}
+.skillsCont .right-side  .js::before{
+    width: 80%;
+}
+.skillsCont .right-side  .php::before{
+    width: 50%;
+}
+.skillsCont .right-side .mysql::before{
+    width: 70%;
+}
+.skills{
+	margin-left: 250px;
+	margin-right: 250px;
+margin-bottom: 200px;
+
+
+}
+/* contact section styling */
+
+
+
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .email{
+    margin-left: 10px;  
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #e0af53;
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e0af53;
+    background: black;
+    color: #e0af53;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: #e0af53;
+
+    background: none;
+}
+
+
+
+.contactCont{
+	margin-left:100px;
+	margin-top: 20px;
+		margin-right:100px;
+
+}
+.contact{
+/*    /Users/zhuldyz/Desktop/lab3/forlab/public/srcs 
+*/
+	background-image:url('/srcs/623078.jpg');
+	height: 100vh;
+}
+
+.text{
+font-size: 25px;
+padding-bottom: 20px;}
+
+
+
+
+
+
